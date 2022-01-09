@@ -89,7 +89,7 @@
     background-image: linear-gradient( to bottom,  #16697A, #489FB5, #82C0CC );
     padding: 10px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .title-cabecalho{
         font-size: 1.5em;
     }
