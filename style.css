@@ -68,6 +68,7 @@
     justify-content: center;
     flex-direction: row;
     margin-top: 30px;
+    margin-bottom: 20px;
     padding: 10px;
     background-color: #d1d1d181;
     border: 2px solid #a3a3a3ea;;
@@ -186,8 +187,7 @@
     .containerProjetos{
         max-width: 300px;
         max-height: 200px;
-    
-
+        margin: 20px;
     }
     .btnProjetos img{
         width: 90px;
@@ -197,7 +197,7 @@
     .btnProjetos{
         width: 100px;
         height: 200px;
-        margin: 5px;
+        margin: 10px;
         text-align: center;
     }
     .btnProjetos h4{
@@ -216,7 +216,7 @@
     }
 }
 
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 500px) {
 
     .containerProjetos{
         max-width: 300px;
