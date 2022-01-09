@@ -119,6 +119,9 @@
     border-radius: 5px 5px 0 0 ;
     border-bottom: 3px solid black;
 }
+.btnProjetos h4{
+    font-weight: 600;
+}
 .btnProjetos p{
     padding: 10px;
     font-size: 1em;
@@ -176,6 +179,10 @@
     .cursos{
         width: 100%;
         margin: 10px;
+    }
+
+    .containerProjetos{
+        width: 100%;
     }
 
     .btnProjetos{
