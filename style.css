@@ -183,16 +183,16 @@
     }
 
     .containerProjetos{
-        max-width: 100px;
+        max-width: 80px;
         height: 100%;
 
     }
     .btnProjetos img{
-        width: 100px;
+        width: 80px;
         
     }
     .btnProjetos{
-        width: 100px;
+        width: 80px;
         margin: 5px;
         text-align: center;
     }
