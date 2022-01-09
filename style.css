@@ -184,10 +184,44 @@
     }
 
     .containerProjetos{
-        
         max-width: 300px;
         max-height: 200px;
         background-color:blue ;
+
+    }
+    .btnProjetos img{
+        width: 90px;
+        height: 90px;
+        
+    }
+    .btnProjetos{
+        width: 100px;
+        height: 200px;
+        margin: 5px;
+        text-align: center;
+    }
+    .btnProjetos h4{
+        height: 20px;
+    }
+    .btnProjetos p{
+        text-align: center;
+        width: 90px;
+        height: 80px;
+        padding: 10px;
+    }
+
+    .btnProjetos p{
+        padding: 10px;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-height: 400px) {
+
+    .containerProjetos{
+        max-width: 300px;
+        max-height: 200px;
+        background-color:rgb(0, 110, 6) ;
 
     }
     .btnProjetos img{
