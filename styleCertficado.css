@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient( to bottom,  #16697A, #489FB5, #82C0CC );
+    background-color: #0D192B;
     padding: 10px;
 }
 .img{
@@ -26,7 +26,7 @@
     margin: auto;
     width: 30%;
     border-radius: 5px;
-    
+
 }
 .rodape{
     max-width: 100%;
