@@ -109,6 +109,7 @@
     margin: 20px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.281);
 }
+
 .btnProjetos:hover{
     opacity: 50%;
 }
@@ -183,21 +184,31 @@
     }
 
     .containerProjetos{
-        max-width: 80px;
-        height: 100%;
+        
+        max-width: 300px;
+        max-height: 200px;
+        background-color:blue ;
 
     }
     .btnProjetos img{
-        width: 80px;
+        width: 90px;
+        height: 90px;
         
     }
     .btnProjetos{
-        width: 80px;
+        width: 100px;
+        height: 200px;
         margin: 5px;
         text-align: center;
     }
-    .btnProjetos:first-child{
-        height: 195px;
+    .btnProjetos h4{
+        height: 20px;
+    }
+    .btnProjetos p{
+        text-align: center;
+        width: 90px;
+        height: 80px;
+        padding: 10px;
     }
 
     .btnProjetos p{
