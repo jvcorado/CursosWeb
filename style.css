@@ -93,6 +93,22 @@
     color: black;
     text-decoration: underline;
 }
+.container-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;  
+}
+.cursos .img-sobre{
+    width: 100px;
+    border: none;
+}
 .containerProjetos{
     max-width: 500px;
     display: flex;
