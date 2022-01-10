@@ -112,23 +112,88 @@
 .container-habilidades{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
+}
+.container-habilidades h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 .habilidades{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     text-align: center;
-    flex-direction: column;  
+    flex-direction: row;  
+    
+}
+.habilidades h1{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .habilidades li{
     list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.habilidades h3{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.front{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+    text-align: center;
+}
+.estudando{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 .cursos .img-habilidades{
     width: 24px;
     border: none;
 }
+#certificados{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #14253D;
+    padding: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.24);
+    border: 4px solid rgba(0, 0, 0, 0.377);
+    margin: 5px;
+    padding: 10px;
+    color: #cdd4dd;
+
+}
+
 .containerProjetos{
     max-width: 500px;
     display: flex;
@@ -270,6 +335,10 @@
         padding: 10px;
         font-size: 0.8em;
     }
+    .estudando{
+        margin: auto;
+    }
+   
 }
 
 @media screen and (max-height: 500px) {
