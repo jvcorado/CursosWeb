@@ -112,7 +112,7 @@
 .container-habilidades{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
 }
 .container-habilidades h1{
@@ -124,7 +124,7 @@
 .habilidades{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     text-align: center;
     flex-direction: row;  
@@ -164,7 +164,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 30px;
+    
     text-align: center;
 }
 .estudando{
@@ -341,7 +341,7 @@
     .habilidades{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
         text-align: center;
         flex-direction: row; 
@@ -369,7 +369,7 @@
         text-align: center;
         align-items: center;
         justify-content: center;
-        color: rgb(187, 23, 23);
+        color: rgb(255, 255, 255);
     }
     .front{
         display: flex;
