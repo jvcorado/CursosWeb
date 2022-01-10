@@ -338,9 +338,63 @@
         padding: 10px;
         font-size: 0.8em;
     }
+    .habilidades{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: row; 
+         
+        
+    }
+    .habilidades h1{
+        list-style: none;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .habilidades li{
+        list-style: none;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .habilidades h3{
+        list-style: none;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: rgb(187, 23, 23);
+    }
+    .front{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .back{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 30px;
+        text-align: center;
+    }
     .estudando{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
         margin: auto;
     }
+    
    
 }
 
