@@ -153,7 +153,9 @@
 }
 .download{
     margin-top: 20px;
-    
+    border: 3px solid rgb(46, 159, 224);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
 }
 .download a{
     color: black;
