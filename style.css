@@ -305,6 +305,9 @@
         width: 70px;
         border: none;
     }
+    #certificados{
+        width: 100%;
+    }
     .containerProjetos{
         max-width: 300px;
         max-height: 200px;
