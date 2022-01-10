@@ -151,7 +151,20 @@
     opacity: 50%;
     text-decoration: underline;
 }
-
+.download{
+    margin-top: 20px;
+    
+}
+.download a{
+    color: black;
+}
+.download li{
+    padding: 5px 10px;
+    list-style: none;
+}
+.download:hover{
+    opacity: 50%;
+}
 .rodape{
     width: 100%;
     display: flex;
