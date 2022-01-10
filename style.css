@@ -109,6 +109,26 @@
     width: 100px;
     border: none;
 }
+.container-habilidades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.habilidades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;  
+}
+.habilidades li{
+    list-style: none;
+}
+.cursos .img-habilidades{
+    width: 24px;
+    border: none;
+}
 .containerProjetos{
     max-width: 500px;
     display: flex;
